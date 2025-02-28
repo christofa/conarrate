@@ -79,11 +79,15 @@ function Login() {
             </Button> */}
             <Button variant="outline">
               <img src="/icons/Vector (3).svg" alt="" />
+              <Link to="/home">
               Argent
+              </Link>
             </Button>
             <Button variant="outline">
               <img src="/icons/token-branded_wallet-connect.svg" alt="" />{" "}
+                <Link to="/home">
               Wallet Connect
+              </Link>
             </Button>
           </div>
           <div className="group-3 flex justify-center gap-5 items-center mb-10">
@@ -93,10 +97,14 @@ function Login() {
           <div className="flex gap-5 ">
             <Button variant="outline" className="w-[235px]">
               <img src="/icons/Google-Icon--Streamline-Svg-Logos.svg" alt="" />{" "}
+               <Link to="/home">
               Google
+              </Link>
             </Button>
             <Button variant="outline" className="w-[235px]">
-              <img src="/icons/Apple--Streamline-Svg-Logos.svg" alt="" /> Apple
+              <img src="/icons/Apple--Streamline-Svg-Logos.svg" alt="" /> <Link to="/home">
+              Apple  
+              </Link>
             </Button>
           </div>
         </div>
